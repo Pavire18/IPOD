@@ -1,0 +1,64 @@
+.body__content {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 100px;
+}
+
+.body-card1 {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  box-shadow: 5px 10px 8px 8px #888888;
+}
+.body-card1 .body-card__text {
+  color: gray;
+  font-family: monospace;
+}
+.body-card1 .body-card__title1 {
+  font-family: monospace;
+}
+.body-card1 .body-card__title2 {
+  font-family: monospace;
+}
+.body-card1 .body-card__button {
+  padding: 15px;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+
+.body-card2 {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  color: black;
+  background-color: white;
+  box-shadow: 5px 10px 8px 8px #888888;
+}
+.body-card2 .body-card__text {
+  color: gray;
+  font-family: monospace;
+}
+.body-card2 .body-card__title1 {
+  font-family: monospace;
+}
+.body-card2 .body-card__title2 {
+  font-family: monospace;
+}
+.body-card2 .body-card__button {
+  padding: 15px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,46 @@
+.body__content{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+}
+$font:monospace;
+
+@mixin card($width, $border-radius, $color,$background-color){
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: $width;
+    height: auto;
+    border-radius: $border-radius;
+    color: $color;
+    background-color: $background-color;
+    box-shadow: 5px 10px 8px 8px #888888;
+
+    .body-card__text{
+        color: gray;
+        font-family: $font;
+    }
+    .body-card__title1{
+        font-family: $font;
+    }
+    .body-card__title2{
+        font-family: $font;
+    }
+    .body-card__button{
+        padding: 15px;
+        border: 1px solid $color;
+        color: $color;
+        background-color: $background-color;
+    }
+
+}
+
+.body-card1{
+    @include card(400px, 15px, white, black)
+}
+
+.body-card2{
+    @include card(400px, 15px, black, white)
+}
